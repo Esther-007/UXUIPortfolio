@@ -1,0 +1,121 @@
+.homePage {
+    position: fixed;
+    background-color: #F3EEEA;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    overflow: auto;
+}
+
+/* navigation style */
+.topNav {
+    width: 1024px;
+    height: 120px;
+    /* background-color: pink; */
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.topBarmenu {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+.topMenu {
+    margin: 0;
+    padding-top: 96px;
+    padding-left: 0;
+    list-style: none;
+    text-align: left;
+}
+
+.topMenu li {
+    float: none;
+    display: inline-block;
+}
+
+.topMenu li a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding-right: 50px;
+}
+
+.topMenu li a:hover {
+    color: #757575;
+}
+
+.logoContainer {
+    width: 1024px;
+    height: 120px;
+    position: absolute;
+    left: 483px;
+    top: 70px;
+    content: "";
+}
+
+.linkedinContainer {
+    width: 1024px;
+    display: inline-block;
+    text-align: right;
+}
+
+/* introduction section */
+.myIntroduce {
+    width: 1024px;
+    height: auto;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('../fonts/Butler_Webfont/Butler-UltraLight.woff') format('woff'),
+        url('../fonts/Butler_Webfont/Butler-UltraLight.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+}
+
+.hello {
+    font-family: 'Butler';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: 1px;
+}
+
+/* Footer style */
+.bottomFooter {
+    width: 1024px;
+    margin: 0 auto;
+    padding-top: 10px;
+    position: relative;
+    /* background-color: lightblue; */
+    display: flex;
+}
+
+.contact {
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.contact p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 1px;
+}
+
+.scrollDown {
+    width: 1024px;
+    display: inline-block;
+    text-align: right;
+}
