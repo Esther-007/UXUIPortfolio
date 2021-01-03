@@ -609,7 +609,7 @@ html, body {
     .logoContainer {
         width: 58px;
         left: 30px;
-        top: 60px;
+        top: 40px;
     }
 
     .menuIconMobile {
@@ -619,14 +619,14 @@ html, body {
         display: inline-block;
         position: absolute;
         right: 30px;
-        top: 83px;
+        top: 63px;
     }
     
     .myIntroduce {
         width: 310px;
         height: auto;
-        padding-top: 80px;
-        padding-bottom: 60px;
+        padding-top: 50px;
+        padding-bottom: 50px;
         }
     
     .hello {
