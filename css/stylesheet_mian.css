@@ -1,11 +1,14 @@
-.homePage {
-    position: fixed;
+html, body {
+    margin: 0;
+    height: 100%;
     background-color: #F3EEEA;
-    top: 10px;
-    left: 10px;
-    right: 10px;
-    bottom: 10px;
-    overflow: auto;
+}
+
+.homePage {
+    position: relative;
+    /* background-color: #F3EEEA; */
+    /* display: block; */
+    min-height: 100%;
 }
 
 /* navigation style */
@@ -13,22 +16,21 @@
     width: 1024px;
     height: 120px;
     /* background-color: pink; */
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     position: relative;
 }
 
-.topBarmenu {
+/* .topBarmenu {
     margin: 0 auto;
     width: 1024px;
-}
+} */
 
 .topMenu {
     margin: 0;
-    padding-top: 96px;
+    padding-top: 86px;
     padding-left: 0;
     list-style: none;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .topMenu li {
@@ -51,17 +53,19 @@
 }
 
 .logoContainer {
-    width: 1024px;
-    height: 120px;
+    width: 58px;
     position: absolute;
+    display: inline-block;
     left: 483px;
-    top: 70px;
-    content: "";
+    top: 60px;
 }
 
 .linkedinContainer {
-    width: 1024px;
+    width: 24px;
+    top: 86px;
+    position: absolute;
     display: inline-block;
+    left: 1000px;
     text-align: right;
 }
 
@@ -69,8 +73,8 @@
 .myIntroduce {
     width: 1024px;
     height: auto;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 170px;
+    padding-bottom: 170px;
     margin: 0 auto;
 }
 
@@ -96,6 +100,7 @@
     width: 1024px;
     margin: 0 auto;
     padding-top: 10px;
+    padding-bottom: 100px;
     position: relative;
     /* background-color: lightblue; */
     display: flex;
@@ -135,4 +140,693 @@
     to {
         transform: rotate(-180deg);
     }
+}
+
+/* Case Study Style from here  */
+.portFolio {
+    position: relative;
+    background-color: #F3EEEA;
+    overflow: auto;
+    /* border-top: 2px solid red; */
+}
+
+.uxCasestudy {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.titleOne {
+    font-family: 'Butler';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 140%;
+    letter-spacing: 1px;
+    padding-top: 80px;
+}
+
+.subTitle {
+    font-family: 'Butler';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 140%;
+    letter-spacing: 1px;
+}
+
+.casestudyONE {
+    width: 1024px;
+    height: 350px;
+    position: relative;
+}
+
+.pictureOne {
+    width: 673px;
+    height: 350px;
+    background-image: url("../assets/homepage/CaseStudy_01.png");
+    display: inline-block;
+}
+
+.subTitleOne {
+    width: 390px;
+    display: inline-block;
+    position: absolute;
+    left: 584px;
+    padding-top: 20px;
+}
+
+.caseIntro {
+    width: 260px;
+    display: inline-block;
+    position: absolute;
+    left: 703px;
+    padding-top: 110px;
+}
+
+.caseIntro p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    font-size: 18px;
+    word-wrap: break-word;
+    line-height: 140%;
+}
+
+.thisButton {
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    left: 703px;
+    padding-top: 225px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+.thisButton:hover {
+    color: #732BBB;
+}
+
+.thisButton i{
+    padding-left: 5px;
+}
+
+.casestudyTWO {
+    width: 1024px;
+    height: 350px;
+    padding-top: 100px;
+    position: relative;
+} 
+
+.pictureTwo {
+    width: 673px;
+    height: 350px;
+    background-image: url("../assets/homepage/CaseStudy_02.png");
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    right: 0;
+}
+
+.subTitleTwo {
+    width: 390px;
+    display: inline-block;
+    position: absolute;
+    left: 130px;
+    padding-top: 20px;
+}
+
+.caseIntroTwo {
+    width: 260px;
+    display: inline-block;
+    position: absolute;
+    left: 88px;
+    padding-top: 110px;
+}
+
+.caseIntroTwo p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    font-size: 18px;
+    word-wrap: break-word;
+    line-height: 140%;
+}
+
+.thisButtonTwo {
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    left: 88px;
+    padding-top: 225px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+.thisButtonTwo:hover {
+    color: #732BBB;
+}
+
+.thisButtonTwo i{
+    padding-left: 5px;
+}
+
+.casestudyTHREE {
+    width: 1024px;
+    height: 350px;
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.pictureThree {
+    width: 673px;
+    height: 350px;
+    background-image: url("../assets/homepage/CaseStudy_03.png");
+    display: inline-block;
+}
+
+.subTitleThree {
+    width: 390px;
+    display: inline-block;
+    position: absolute;
+    left: 584px;
+    padding-top: 20px;
+}
+
+.caseIntroThree {
+    width: 260px;
+    display: inline-block;
+    position: absolute;
+    left: 703px;
+    padding-top: 110px;
+}
+
+.caseIntroThree p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    font-size: 18px;
+    word-wrap: break-word;
+    line-height: 140%;
+}
+
+.thisButtonThree {
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    left: 703px;
+    padding-top: 225px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #3C3C3C;
+}
+
+.thisButtonThree:hover {
+    color: #732BBB;
+}
+
+.thisButtonThree i{
+    padding-left: 5px;
+}
+
+/* website design from here */
+.websiteDesign {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.titleTwo {
+    font-family: 'Butler';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 140%;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.projectContainerRow {
+    width: 1024px;
+    height: auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.webProjectOne, .webProjectTwo {
+    display: block;
+    text-align: center;
+}
+
+.webProjectOne a {
+    width: 497px;
+    height: 350px;
+    background-image: url("../assets/homepage/websiteproject1.png");
+    display: inline-block;
+}
+
+.webProjectTwo a {
+    width: 497px;
+    height: 350px;
+    background-image: url("../assets/homepage/websiteproject2.png");
+    display: inline-block;
+}
+
+.webProjectOne p, .webProjectTwo p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 300;
+    font-size: 18px;
+    word-wrap: break-word;
+    line-height: 140%;
+}
+
+.webProjectOne h3, .webProjectTwo h3 {
+    margin-bottom: -10px;
+}
+
+/* tablet */
+@media screen and (max-width:1152px) and (min-width:768px) {
+    /* homepage start here */
+    .topNav {
+        width: 768px;
+        height: 120px;
+    }
+
+    .topMenu {
+        margin: 0;
+        padding-top: 86px;
+        padding-left: 482px;
+        list-style: none;
+    }
+    
+    .logoContainer {
+        width: 58px;
+        position: absolute;
+        display: inline-block;
+        left: 66px;
+        top: 60px;
+    }
+    
+    .linkedinContainer {
+        width: 24px;
+        top: 86px;
+        position: absolute;
+        display: inline-block;
+        left: 686px;
+        text-align: right;
+    }
+
+    .myIntroduce {
+        width: 768px;
+        height: auto;
+        padding-top: 170px;
+        padding-bottom: 170px;
+        margin: 0 auto;
+    }
+
+    .hello {
+        font-family: 'Butler';
+        font-weight: 200;
+        font-style: normal;
+        font-size: 48px;
+        line-height: 140%;
+        letter-spacing: 1px;
+        padding-left: 66px;
+    }
+
+    .bottomFooter {
+        width: 636px;
+    }
+
+    /* case study start here */
+    .uxCasestudy {
+        width: 768px;
+    }
+
+    .titleOne, .titleTwo {
+        font-size: 40px;
+        padding-left: 45px;
+    }
+
+    .casestudyONE {
+        width: 768px;
+    }
+
+    .pictureOne {
+        width: 505px;
+        height: 350px;
+        background-image: url("../assets/homepage/CaseStudy_01_Tablet.png");
+    }
+    
+    .subTitleOne {
+        width: 216px;
+        left: 525px;
+        padding-top: 20px;
+    }
+    
+    .caseIntro {
+        width: 177px;
+        left: 525px;
+        padding-top: 150px;
+    }
+
+    .thisButton {
+        left: 525px;
+        padding-top: 290px;
+    }
+
+    .casestudyTWO {
+        width: 768px;
+    } 
+    
+    .pictureTwo {
+        width: 505px;
+        height: 350px;
+        background-image: url("../assets/homepage/CaseStudy_02_Tablet.png");
+    }
+    
+    .subTitleTwo {
+        width: 216px;
+        left: 45px;
+        padding-top: 20px;
+    }
+    
+    .caseIntroTwo {
+        width: 177px;
+        left: 45px;
+        padding-top: 150px;
+    }
+    
+    .thisButtonTwo {
+        left: 45px;
+        padding-top: 290px;
+    }
+
+    .casestudyTHREE {
+        width: 768px;
+    }
+    
+    .pictureThree {
+        width: 505px;
+        height: 350px;
+        background-image: url("../assets/homepage/CaseStudy_03_Tablet.png");
+    }
+    
+    .subTitleThree {
+        width: 216px;
+        left: 525px;
+        padding-top: 20px;
+    }
+    
+    .caseIntroThree {
+        width: 177px;
+        left: 525px;
+        padding-top: 150px;
+    }
+    
+    .caseIntroThree p {
+        font-family: 'Josefin Sans', sans-serif;
+        color: #000000;
+        font-weight: 300;
+        font-size: 18px;
+        word-wrap: break-word;
+        line-height: 140%;
+    }
+    
+    .thisButtonThree {
+        left: 525px;
+        padding-top: 290px;
+    }
+
+    .websiteDesign {
+        width: 768px;
+    }
+
+    .projectContainerRow {
+        width: 768px;
+    }
+
+    .webProjectOne a {
+        width: 374px;
+        background-image: url("../assets/homepage/websiteproject1_Tablet.png");
+    }
+    
+    .webProjectTwo a {
+        width: 374px;
+        height: 350px;
+        background-image: url("../assets/homepage/websiteproject2_Tablet.png");
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:375px) {
+    .portFolio {
+        background-color: white;
+    }
+    /* homepage start here */
+    .topNav {
+        width: 375px;
+    }
+    
+    .topMenu, .linkedinContainer {
+        display: none;
+    }
+        
+    .logoContainer {
+        width: 58px;
+        left: 30px;
+        top: 60px;
+    }
+
+    .menuIconMobile {
+        width: 21px;
+        height: 14px;
+        background-image: url("../assets/homepage/menu_icon.svg");
+        display: inline-block;
+        position: absolute;
+        right: 30px;
+        top: 83px;
+    }
+    
+    .myIntroduce {
+        width: 310px;
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 60px;
+        }
+    
+    .hello {
+        font-weight: 200;
+        font-style: normal;
+        font-size: 38px;
+        line-height: 140%;
+        letter-spacing: 2px;
+        }
+    
+    .bottomFooter {
+        width: 375px;
+        padding-top: 0px;
+        padding-bottom: 22px;
+        }
+
+    .contact {
+        padding-left: 30px;
+        padding-top: 0px;
+        }
+
+    .scrollDown {
+        display: none;
+    }
+
+    .arrowDown {
+        width: 20px;
+        height: 12px;
+        background-image: url("../assets/homepage/arrow_Down.svg");
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        animation: bounce 0.8s infinite alternate;
+        -webkit-animation: bounce 0.8s infinite alternate;
+        }
+
+    @keyframes bounce {
+        from {
+            transform: translateY(0px);
+        }
+        to {
+            transform: translateY(-15px);
+        }
+    }
+
+    @-webkit-keyframes bounce {
+        from {
+            transform: translateY(0px);
+        }
+        to {
+            transform: translateY(-15px);
+        }
+    }
+
+/* case study start here */
+    .uxCasestudy {
+        width: 375px;
+    }
+
+    .titleOne, .titleTwo {
+        font-size: 32px;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    .casestudyONE {
+        width: 375px;
+        height: 580px;
+        background: #6A8950;
+    }
+
+    .pictureOne {
+        width: 375px;
+        height: 350px;
+        background-image: url("../assets/homepage/CaseStudy_01_Tablet.png");
+    }
+
+    .subTitle {
+        font-size: 30px;
+        line-height: 140%;
+        letter-spacing: 2px;
+        color: white;
+    }
+
+    .caseIntro p, .caseIntroTwo p, .caseIntroThree p {
+        color: white;
+    }
+
+    .subTitleOne, .subTitleTwo, .subTitleThree {
+        width: 201px;
+        display: block;
+        text-align: center;
+        padding-top: 0px;
+        position: absolute;
+        left: 87px;
+    }
+    
+    .caseIntro, .caseIntroTwo, .caseIntroThree {
+        display: block;
+        width: 265px;
+        text-align: center;
+        position: absolute;
+        left: 55px;
+        padding-top: 105px;
+    }
+
+    .thisButton, .thisButtonTwo, .thisButtonThree {
+        display: none;
+    }
+
+    .casestudyTWO {
+        width: 375px;
+        height: 580px;
+        background: #8E5B37;
+        margin-top: 20px;
+        padding-top: 0px;
+    }
+
+    .pictureTwo {
+        width: 375px;
+        height: 350px;
+        background-image: url("../assets/homepage/CaseStudy_02_Tablet.png");
+        display: inline-block;
+        text-align: center;
+        position: relative;
+    }
+
+    .casestudyTHREE {
+        width: 375px;
+        height: 580px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        background-color: #654B9D;
+    }
+
+    .pictureThree {
+        width: 375px;
+        height: 350px;
+        background-image: url("../assets/homepage/CaseStudy_03_Tablet.png");
+    }
+
+    .websiteDesign {
+        width: 375px;
+    }
+    
+    .projectContainerRow {
+        width: 375px;
+        height: auto;
+        position: relative;
+        display: block;
+        justify-content: center;
+        padding-bottom: 100px;
+    }
+    
+    .webProjectOne, .webProjectTwo {
+        display: block;
+        text-align: center;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .webProjectOne a {
+        width: 355px;
+        height: 350px;
+        background-image: url("../assets/homepage/websiteproject1.png");
+        display: inline-block;
+    }
+
+    .projectIntroOne {
+        position: absolute;
+        top: 30%;
+        bottom: 50%;
+    }
+    
+    .webProjectTwo a {
+        width: 355px;
+        height: 350px;
+        background-image: url("../assets/homepage/websiteproject2.png");
+        display: inline-block;
+    }
+
+    .projectIntroTwo {
+        position: absolute;
+        top: 30%;
+        bottom: 50%;
+    }
+    
+    .webProjectOne p, .webProjectTwo p {
+        color: #ffffff;
+    }
+    
+    .webProjectOne h3, .webProjectTwo h3 {
+        margin-bottom: 0px;
+    }
+
+    .bottomFooter {
+        width: 375px;
+    }
+
 }
