@@ -28,7 +28,7 @@ html, body {
 
 .topMenu {
     margin: 0;
-    padding-top: 86px;
+    padding-top: 76px;
     padding-left: 0;
     list-style: none;
     /* text-align: left; */
@@ -58,12 +58,12 @@ html, body {
     position: absolute;
     display: inline-block;
     left: 483px;
-    top: 60px;
+    top: 50px;
 }
 
 .linkedinContainer {
     width: 24px;
-    top: 86px;
+    top: 76px;
     position: absolute;
     display: inline-block;
     left: 1000px;
@@ -74,8 +74,8 @@ html, body {
 .myIntroduce {
     width: 1024px;
     height: auto;
-    padding-top: 170px;
-    padding-bottom: 170px;
+    padding-top: 160px;
+    padding-bottom: 160px;
     margin: 0 auto;
 }
 
@@ -100,7 +100,7 @@ html, body {
 .bottomFooter {
     width: 1024px;
     margin: 0 auto;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-bottom: 100px;
     position: relative;
     /* background-color: lightblue; */
