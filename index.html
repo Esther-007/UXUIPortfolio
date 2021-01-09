@@ -10,12 +10,12 @@
     <title>EY Portfolio</title>
 </head>
 <body>
-    <section class="homePage" id="parallax">
+    <section class="homePage">
 <!-- navigation from here -->
         <div class="topNav">
             <div class="topBarmenu">
                 <ul class="topMenu">
-                    <li><a href="https://wonderesther.com">Work</a></li>
+                    <li><a href="#work">Work</a></li>
                     <li><a href="#">About</a></li>
                 </ul>
             </div>
@@ -27,24 +27,34 @@
             </div>
             <div class="menuIconMobile"></div>
         </div>
+        <div class="toggleMenu" id="mobileOnly">
+            <ul>
+                <li><a href="#work">Work</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="https://www.linkedin.com/in/esther-young-38a967139/">LinkedIn</a></li>
+            </ul>
+        </div>
+    
 <!-- introduction section from here-->
+
         <div class="myIntroduce">
             <p class="hello">Hello! <br>I am Esther Young, a freelance UX/UI designer located in San Francisco Bay Area.</p>
         </div>
-<!-- footer section from here -->
+    <!-- footer section from here -->
         <div class="bottomFooter">
             <div class="contact">
-                <p>Let’s connect! <br>esthercui@yahoo.com</p>
+                <p>Let’s connect! <br><a href="mailto: esthercui@yahoo.com">esthercui@yahoo.com</a></p>
             </div>
             <div class="scrollDown">
                 <img src="assets/homepage/ScrollDown.png" alt="Scroll Down">
             </div>           
         </div>
         <div class="arrowDown"></div>
+
     </section>
 
 <!-- Case Study starts here -->
-    <section class="portFolio">
+    <section class="portFolio" id="work">
         <div class="uxCasestudy">
             <div class="titleOne">
                 <p>01. UX Case Study</p>
@@ -91,10 +101,11 @@
         </div>
         <div class="bottomFooter">
             <div class="contact">
-                <p>Let’s connect! <br>esthercui@yahoo.com</p>
+                <p>Let’s connect! <br><a href="mailto: esthercui@yahoo.com">esthercui@yahoo.com</a></p>
             </div>
         </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

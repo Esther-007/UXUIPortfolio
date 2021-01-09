@@ -8,7 +8,7 @@ html, body {
     position: relative;
     background-color: #F6EEF5;
     /* display: block; */
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -16,9 +16,14 @@ html, body {
 .topNav {
     width: 1024px;
     height: 120px;
-    /* background-color: pink; */
-    margin: 0 auto;
-    position: relative;
+    background-color: #F6EEF5;
+    display: block;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 
 /* .topBarmenu {
@@ -73,10 +78,13 @@ html, body {
 /* introduction section */
 .myIntroduce {
     width: 1024px;
-    height: auto;
+    height: 500px;
+    /* background-color: skyblue; */
     padding-top: 160px;
-    padding-bottom: 160px;
+    padding-bottom: 140px;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
 }
 
 @font-face {
@@ -122,6 +130,15 @@ html, body {
 
 .contact p:hover {
     color: #757575;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.contact a:hover {
+    color: #732BBB;
 }
 
 .scrollDown {
@@ -420,6 +437,44 @@ html, body {
     margin-bottom: -10px;
 }
 
+.toggleMenu {
+    background-color: #F6EEF5;
+    width: 375px;
+    height: 550px;
+    z-index: 100;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 100px;
+    display: none;
+}
+
+.toggleMenu ul {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    list-style: none;
+    text-align: center;
+}
+
+.toggleMenu li {
+    display: block;
+    padding: 20px;
+}
+.toggleMenu a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.active {
+    display: block;
+}
+
+
 /* tablet */
 @media screen and (max-width:1152px) and (min-width:768px) {
     /* homepage start here */
@@ -454,10 +509,12 @@ html, body {
 
     .myIntroduce {
         width: 768px;
-        height: auto;
-        padding-top: 170px;
-        padding-bottom: 170px;
+        height: 500px;
+        padding-top: 160px;
+        padding-bottom: 110px;
         margin: 0 auto;
+        display: flex;
+        align-items: center;
     }
 
     .hello {
@@ -471,7 +528,7 @@ html, body {
     }
 
     .bottomFooter {
-        width: 636px;
+        width: 655px;
     }
 
     /* case study start here */
@@ -625,9 +682,12 @@ html, body {
     
     .myIntroduce {
         width: 310px;
-        height: auto;
-        padding-top: 45px;
-        padding-bottom: 45px;
+        height: 500px;
+        padding-top: 85px;
+        padding-bottom: 0px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
         }
     
     .hello {
