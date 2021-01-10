@@ -466,7 +466,8 @@ html, body {
     font-weight: 400;
     font-size: 18px;
     list-style: none;
-    text-align: center;
+    text-align: left;
+    padding-left: 36%;
 }
 
 .toggleMenu li {

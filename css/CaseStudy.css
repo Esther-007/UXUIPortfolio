@@ -1,11 +1,76 @@
-*{
-    /* border: 2px solid red; */
-}
-
 body {
-    font-family: Josefin Sans;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-.container {
-    border: 2px solid red;
+/* Navigation style from here */
+.container-fluid {
+    height: 120px;
+    background-color: #F6EEF5;
+    z-index: 1000;
+}
+
+.topNav {
+    width: 1024px;
+    height: 120px;
+    display: block;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 1001;
+}
+
+.topMenu {
+    margin: 0;
+    padding-top: 76px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.topMenu li {
+    float: none;
+    display: inline-block;
+}
+
+.topMenu li a {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #000000;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    padding-right: 50px;
+}
+
+.topMenu li a:hover {
+    color: #757575;
+}
+
+.logoContainer {
+    width: 58px;
+    position: absolute;
+    display: inline-block;
+    left: 483px;
+    top: 50px;
+}
+
+.linkedinContainer {
+    width: 24px;
+    top: 76px;
+    position: absolute;
+    display: inline-block;
+    left: 1000px;
+    text-align: right;
+}
+
+/* Case Study style from here */
+.container-sm {
+    /* border: 2px solid red; */
+    height: 150px;
+}
+
+.text-center p {
+    font-size: 20px;
+    font-weight: 300;
 }
