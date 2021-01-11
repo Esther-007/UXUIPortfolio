@@ -3,10 +3,11 @@ body {
 }
 
 /* Navigation style from here */
-.container-fluid {
+#topNavigation {
     height: 120px;
     background-color: #F6EEF5;
     z-index: 1000;
+    position: fixed;
 }
 
 .topNav {
@@ -65,12 +66,43 @@ body {
 }
 
 /* Case Study style from here */
+.spaceBar {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100px;
+}
+
 .container-sm {
-    /* border: 2px solid red; */
-    height: 150px;
+    /* border: 1px solid red; */
+    max-width: 1024px;
+    /* height: 150px; */
 }
 
 .text-center p {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Butler';
+    src: url('Butler-UltraLight.woff2') format('woff2'),
+        url('Butler-UltraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+#aboutProject {
+    font-family: 'Butler';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.smallerText {
+    color: #8D8D8D;
+    font-size: 14px;
+}
+
+#background {
+    background-color: #F0F6EF;
+    height: 600px;
 }
